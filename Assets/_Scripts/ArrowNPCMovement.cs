@@ -13,7 +13,7 @@ public class ArrowNPCMovement : MonoBehaviour {
 
 	private void HeadForDestintation ()
 	{
-		Vector3 destinaton = targetGO.transform.position;
-		navMeshAgent.SetDestination (destinaton);
+		Vector3 destination = targetGO.transform.position;
+		navMeshAgent.SetDestination (destination);
 	}
 }
